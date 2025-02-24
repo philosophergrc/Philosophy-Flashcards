@@ -105,9 +105,9 @@
 
     async function loadFlashcards() {
         try {
-            const response = await fetch('https://your-username.github.io/your-repo/module_1.json'); // Replace with your GitHub Pages link
+            const response = await fetch('https://philosophergrc.github.io/Philosophy-Flashcards/module_1.json'); // Replace with your GitHub Pages link
             if (!response.ok) throw new Error('Failed to load flashcards');
-            
+            console.log(response);
             const data = await response.json();
             flashcards = data.flashcards;
             currentIndex = 0;
@@ -119,12 +119,9 @@
 
     function displayCard() {
         if (flashcards.length > 0) {
-            const currentCard = flashcards[currentIndex];
-            const key = Object.keys(currentCard)[0];
-            const value = currentCard[key];
-
-            document.getElementById("card-front").innerHTML = `<p>${key}</p>`;
-            document.getElementById("card-back").innerHTML = `<p>${value}</p>`;
+            const { term, definition } = flashcards[currentIndex];
+            document.getElementById("card-front").innerHTML = `<p>${term}</p>`;
+            document.getElementById("card-back").innerHTML = `<p>${definition}</p>`;
         }
     }
 
