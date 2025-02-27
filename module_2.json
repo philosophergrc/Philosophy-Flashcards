@@ -1,0 +1,56 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "term": "Scholasticism",
+      "definition": "A medieval method that used reason to explain faith."
+    },
+    {
+      "id": 2,
+      "term": "Summa Theologica",
+      "definition": "Thomas Aquinas' comprehensive work reconciling faith and reason."
+    },
+    {
+      "id": 3,
+
+      "term": "Problem of Universals",
+      "definition": "A debate over whether universals exist independently of particular things."
+    },
+    {
+      "id": 4,
+
+      "term": "Divine Illumination",
+      "definition": "The concept that God bestows knowledge upon humans."
+    },
+    {
+      "id": 5,
+      "term": "Nominalism",
+      "definition": "The philosophical view that universals are merely names without any corresponding reality."
+    },
+    {
+      "id": 6,
+      "term": "Realism in Philosophy",
+      "definition": "The doctrine that universals and abstract concepts exist independently of the mind."
+    },
+    {
+      "id": 7,
+      "term": "Augustinian Thought",
+      "definition": "The ideas of St. Augustine, especially regarding the nature of sin and grace."
+    },
+    {
+      "id": 8,
+      "term": "Mysticism",
+      "definition": "The pursuit of experiencing the divine through direct, personal perception."
+    },
+    {
+      "id": 9,
+      "term": "Averroism",
+      "definition": "A medieval interpretation of Aristotle’s work, emphasizing rationality."
+    },
+    {
+      "id": 10,
+      "term": "Medieval Ethics",
+      "definition": "Ethical theories that focus on aligning human life with divine order."
+    }
+  ]
+}
