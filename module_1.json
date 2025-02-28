@@ -1,101 +1,174 @@
 {
-    "flashcards": [
-      {
-        "term": "Philosophy",
-        "definition": "The study of general and fundamental problems in the form of questions."
-      },
-      {
-        "term": "Philo",
-        "definition": "Greek word meaning 'to love'."
-      },
-      {
-        "term": "Sophia",
-        "definition": "Greek word meaning 'knowledge' or 'wisdom'."
-      },
-      {
-        "term": "Philosophy (Etymology)",
-        "definition": "Derived from the Greek φιλοσοφία (philosophia), meaning 'the love of wisdom'."
-      },
-      {
-        "term": "Major Areas of Philosophy",
-        "definition": "Metaphysics, Epistemology, Logic, and Axiology (Ethics & Aesthetics)."
-      },
-      {
-        "term": "Metaphysics",
-        "definition": "The study of reality, including the fundamental nature of the universe and existence."
-      },
-      {
-        "term": "Epistemology",
-        "definition": "The study of knowledge and justified belief."
-      },
-      {
-        "term": "Logic",
-        "definition": "The study of rules for correct reasoning and argument structure."
-      },
-      {
-        "term": "Axiology",
-        "definition": "The study of moral and aesthetic values, often divided into ethics and aesthetics."
-      },
-      {
-        "term": "Philosophical Question",
-        "definition": "Thinking about or questioning the truth of a belief."
-      },
-      {
-        "term": "Philosophical Beliefs",
-        "definition": "Fundamental beliefs that underlie many ordinary beliefs."
-      },
-      {
-        "term": "Argument",
-        "definition": "A set of premises leading to a conclusion, aiming to justify a belief."
-      },
-      {
-        "term": "Premise",
-        "definition": "A statement that provides support for a conclusion in an argument."
-      },
-      {
-        "term": "Conclusion",
-        "definition": "The statement being supported by premises in an argument."
-      },
-      {
-        "term": "Deductive Argument",
-        "definition": "An argument intended to guarantee the truth of its conclusion."
-      },
-      {
-        "term": "Inductive Argument",
-        "definition": "An argument that aims to make its conclusion more likely or probable."
-      },
-      {
-        "term": "Valid Argument",
-        "definition": "An argument where, if the premises are true, the conclusion must also be true."
-      },
-      {
-        "term": "Sound Argument",
-        "definition": "A deductively valid argument with all true premises."
-      },
-      {
-        "term": "Cogent Argument",
-        "definition": "An inductively strong argument with all true premises."
-      },
-      {
-        "term": "Russell on Philosophy",
-        "definition": "Philosophy’s value lies in its uncertainty and its ability to challenge assumptions."
-      },
-      {
-        "term": "Russell on Practicality",
-        "definition": "Criticized the 'practical' person for recognizing material but not intellectual needs."
-      },
-      {
-        "term": "Value of Philosophy",
-        "definition": "It expands our understanding, frees us from biases, and fosters critical thinking."
-      },
-      {
-        "term": "Philosophy & Freedom",
-        "definition": "True philosophic contemplation makes a person a 'citizen of the universe'."
-      },
-      {
-        "term": "Certainty as a Prison",
-        "definition": "Rigid beliefs prevent intellectual growth and limit freedom."
-      }
-    ]
-  }
-  
+  "flashcards": [
+    {
+      "id": 1,
+      "term": "Philosophy",
+      "definition": "The study of general and fundamental problems in the form of questions."
+    },
+    {
+      "id": 2,
+      "term": "Philo",
+      "definition": "Greek word meaning 'to love'."
+    },
+    {
+      "id": 3,
+      "term": "Sophia",
+      "definition": "Greek word meaning 'knowledge' or 'wisdom'."
+    },
+    {
+      "id": 4,
+      "term": "Philosophy (Etymology)",
+      "definition": "Derived from the Greek φιλοσοφία (philosophia), meaning 'the love of wisdom'."
+    },
+    {
+      "id": 5,
+      "term": "Major Areas of Philosophy",
+      "definition": "Metaphysics, Epistemology, Logic, and Axiology (Ethics & Aesthetics)."
+    },
+    {
+      "id": 6,
+      "term": "Metaphysics",
+      "definition": "The study of reality, including the fundamental nature of the universe and existence."
+    },
+    {
+      "id": 7,
+      "term": "Epistemology",
+      "definition": "The study of knowledge and justified belief."
+    },
+    {
+      "id": 8,
+      "term": "Logic",
+      "definition": "The study of rules for correct reasoning and argument structure."
+    },
+    {
+      "id": 9,
+      "term": "Axiology",
+      "definition": "The study of moral and aesthetic values, often divided into ethics and aesthetics."
+    },
+    {
+      "id": 10,
+      "term": "Philosophical Question",
+      "definition": "Thinking about or questioning the truth of a belief."
+    },
+    {
+      "id": 11,
+      "term": "Philosophical Beliefs",
+      "definition": "Fundamental beliefs that underlie many ordinary beliefs."
+    },
+    {
+      "id": 12,
+      "term": "Argument",
+      "definition": "A set of premises leading to a conclusion, aiming to justify a belief."
+    },
+    {
+      "id": 13,
+      "term": "Premise",
+      "definition": "A statement that provides support for a conclusion in an argument."
+    },
+    {
+      "id": 14,
+      "term": "Conclusion",
+      "definition": "The statement being supported by premises in an argument."
+    },
+    {
+      "id": 15,
+      "term": "Deductive Argument",
+      "definition": "An argument intended to guarantee the truth of its conclusion."
+    },
+    {
+      "id": 16,
+      "term": "Inductive Argument",
+      "definition": "An argument that aims to make its conclusion more likely or probable."
+    },
+    {
+      "id": 17,
+      "term": "Valid Argument",
+      "definition": "An argument where, if the premises are true, the conclusion must also be true."
+    },
+    {
+      "id": 18,
+      "term": "Sound Argument",
+      "definition": "A deductively valid argument with all true premises."
+    },
+    {
+      "id": 19,
+      "term": "Cogent Argument",
+      "definition": "An inductively strong argument with all true premises."
+    },
+    {
+      "id": 20,
+      "term": "Russell on Philosophy",
+      "definition": "Philosophy’s value lies in its uncertainty and its ability to challenge assumptions."
+    },
+    {
+      "id": 21,
+      "term": "Russell on Practicality",
+      "definition": "Criticized the 'practical' person for recognizing material but not intellectual needs."
+    },
+    {
+      "id": 22,
+      "term": "Value of Philosophy",
+      "definition": "It expands our understanding, frees us from biases, and fosters critical thinking."
+    },
+    {
+      "id": 23,
+      "term": "Philosophy & Freedom",
+      "definition": "True philosophic contemplation makes a person a 'citizen of the universe'."
+    },
+    {
+      "id": 24,
+      "term": "Certainty as a Prison",
+      "definition": "Rigid beliefs prevent intellectual growth and limit freedom."
+    },
+    {
+      "id": 25,
+      "term": "Socratic Method",
+      "definition": "A form of cooperative dialogue to stimulate critical thinking and illuminate ideas."
+    },
+    {
+      "id": 26,
+      "term": "Socratic Irony",
+      "definition": "Pretending ignorance to expose contradictions in one’s interlocutor’s views."
+    },
+    {
+      "id": 27,
+      "term": "Theory of Forms",
+      "definition": "Plato’s claim that non-material abstract forms represent the highest kind of reality."
+    },
+    {
+      "id": 28,
+      "term": "Allegory of the Cave",
+      "definition": "A metaphor for the transformative journey from ignorance to enlightenment."
+    },
+    {
+      "id": 29,
+      "term": "Dialectic",
+      "definition": "A method of reasoning involving dialogue between two or more people holding different points of view."
+    },
+    {
+      "id": 30,
+      "term": "Virtue Ethics",
+      "definition": "An ethical framework that emphasizes virtues of mind and character."
+    },
+    {
+      "id": 31,
+      "term": "Aristotelian Logic",
+      "definition": "A system of logic developed by Aristotle based on syllogisms."
+    },
+    {
+      "id": 32,
+      "term": "Platonic Love",
+      "definition": "A deep, non-sexual bond that transcends physical attraction."
+    },
+    {
+      "id": 33,
+      "term": "Phronesis",
+      "definition": "Practical wisdom guiding ethical decision-making."
+    },
+    {
+      "id": 34,
+      "term": "Eudaimonia",
+      "definition": "A central concept in Aristotelian ethics meaning human flourishing or well-being."
+    }
+  ]
+}
