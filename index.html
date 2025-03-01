@@ -212,6 +212,9 @@
       let flashcards = [];
       let currentIndex = 0;
 
+      // Track if the card is flipped
+      let isFlipped = false;
+
       //Fetch module directly from the github page
       //Need change when migrate over to the client Google Drive link
       async function loadFlashcards(module) {
@@ -223,6 +226,8 @@
           const data = await response.json();
           flashcards = data.flashcards;
           currentIndex = 0;
+          isFlipped = false; // Reset flip when new flashcard
+          document.querySelector(".flashcard").classList.remove("flipped");
           displayCard();
           document.getElementById("total-questions").innerText =
             "Total Questions: " + flashcards.length;
@@ -266,25 +271,31 @@
       }
 
       function flipCard() {
-        document.querySelector(".flashcard").classList.toggle("flipped");
+        isFlipped = !isFlipped;
+        document.querySelector(".flashcard").classList.toggle("flipped", isFlipped);
+      }
+
+      function resetCard() {
+        isFlipped = false;
+        document.querySelector(".flashcard").classList.remove("flipped");
+        displayCard();
       }
 
       function nextCard() {
         currentIndex = (currentIndex + 1) % flashcards.length;
-        displayCard();
+        resetCard();
       }
 
       function prevCard() {
-        currentIndex =
-          (currentIndex - 1 + flashcards.length) % flashcards.length;
-        displayCard();
+        currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
+        resetCard();
       }
 
       function shuffleCards() {
         flashcards.sort(() => Math.random() - 0.5);
         // Set currentIndex to a random index after shuffling
         currentIndex = Math.floor(Math.random() * flashcards.length);
-        displayCard();
+        resetCard();
       }
 
       loadFlashcards(1); // load module 1 by default
