@@ -218,23 +218,46 @@
       //Fetch module directly from the github page
       //Need change when migrate over to the client Google Drive link
       async function loadFlashcards(module) {
-        try {
-          const response = await fetch(
-            `https://philosophergrc.github.io/Philosophy-Flashcards/module_${module}.json`
-          );
-          if (!response.ok) throw new Error("Failed to load flashcards");
-          const data = await response.json();
-          flashcards = data.flashcards;
-          currentIndex = 0;
-          isFlipped = false; // Reset flip when new flashcard
-          document.querySelector(".flashcard").classList.remove("flipped");
-          displayCard();
-          document.getElementById("total-questions").innerText =
-            "Total Questions: " + flashcards.length;
-        } catch (error) {
-          console.error("Error fetching flashcards:", error);
-        }
-      }
+        
+        const sheetIds = [
+          "1RDPbmN1wLsTN-7PTXR93gsX_Z5oeGLFTjR0olbuGogw",
+          "1rXHfJ5pzjghq4STBmORrvqQUyZNVs5vTDvR9dRYijKw"
+        ]
+        
+        const sheetId = sheetIds[module - 1];
+        const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
+try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Failed to load flashcards");
+    
+    const text = await response.text();
+    // Remove the prefix and suffix from the response that makes it not valid JSON
+    const jsonText = text.replace('/*O_o*/', '').replace(/google\.visualization\.Query\.setResponse\(|\);$/g, '');
+    const data = JSON.parse(jsonText);
+    
+    console.log("Parsed data:", data); // Log the structure to debug
+    
+    // Extract the flashcard data from the JSON with correct column mapping
+    // Based on your spreadsheet structure:
+    // Column A (index 0): ID
+    // Column B (index 1): Term
+    // Column C (index 2): Definition
+    flashcards = data.table.rows.map(row => ({
+      id: row.c[0]?.v || undefined,
+      term: row.c[1]?.v || "No Term",
+      definition: row.c[2]?.v || "No Definition"
+    }));
+    
+    currentIndex = 0;
+    isFlipped = false; // Reset flip when new flashcard
+    document.querySelector(".flashcard").classList.remove("flipped");
+    displayCard();
+    document.getElementById("total-questions").innerText = "Total Questions: " + flashcards.length;
+  } catch (error) {
+    console.error("Error fetching flashcards:", error);
+    document.getElementById("card-front").innerHTML = `<p>Error loading flashcards. Please ensure the Google Sheet is published to the web and shared publicly.</p>`;
+  }
+}
 
       // Adjust loadModule function so that clicking a module loads the corresponding module JSON file
       function loadModule(el, module) {
