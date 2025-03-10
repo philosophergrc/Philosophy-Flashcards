@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Epistemology",
+        "definition": "The study of knowledge, justified belief, and the nature, sources, and limits of human understanding."
+      },
+      {
+        "id": 2,
+        "term": "Justified True Belief (JTB)",
+        "definition": "The traditional definition of knowledge stating that to know something, one must believe it, it must be true, and one must have justification for believing it."
+      },
+      {
+        "id": 3,
+        "term": "Gettier Problem",
+        "definition": "A philosophical issue questioning whether Justified True Belief is sufficient for knowledge, by presenting cases where JTB is met but knowledge seems absent."
+      },
+      {
+        "id": 4,
+        "term": "Skepticism",
+        "definition": "A philosophical perspective that questions the possibility of certain or absolute knowledge."
+      },
+      {
+        "id": 5,
+        "term": "Rationalism",
+        "definition": "The epistemological view that knowledge is primarily acquired through reason and innate ideas, rather than sensory experience."
+      },
+      {
+        "id": 6,
+        "term": "Empiricism",
+        "definition": "The epistemological theory that knowledge comes only from sensory experience."
+      },
+      {
+        "id": 7,
+        "term": "Kantian Synthesis",
+        "definition": "Immanuel Kant’s theory that combines rationalism and empiricism, stating that knowledge is constructed by both experience and innate cognitive structures."
+      },
+      {
+        "id": 8,
+        "term": "Internalism",
+        "definition": "The belief that justification for knowledge must be accessible to the thinker’s conscious awareness."
+      },
+      {
+        "id": 9,
+        "term": "Externalism",
+        "definition": "The belief that justification for knowledge depends on external factors, such as the reliability of the belief-forming process, rather than conscious awareness."
+      },
+      {
+        "id": 10,
+        "term": "Correspondence Theory of Truth",
+        "definition": "A theory that states that truth is determined by how accurately it corresponds to reality."
+      },
+      {
+        "id": 11,
+        "term": "Coherence Theory of Truth",
+        "definition": "A theory that states that truth is determined by the coherence of a belief within a larger system of beliefs."
+      },
+      {
+        "id": 12,
+        "term": "Pragmatic Theory of Truth",
+        "definition": "A theory that states that truth is determined by the practical consequences and usefulness of a belief."
+      },
+      {
+        "id": 13,
+        "term": "Relativism",
+        "definition": "The philosophical position that truth and morality are not absolute but depend on cultural, social, or individual perspectives."
+      },
+      {
+        "id": 14,
+        "term": "Postmodernism",
+        "definition": "A skeptical approach that denies the existence of absolute truths, emphasizing the subjective and socially constructed nature of knowledge."
+      },
+      {
+        "id": 15,
+        "term": "Alfred Tarski’s Semantic Theory of Truth",
+        "definition": "A theory stating that a statement is true if it corresponds to facts in a given language framework."
+      },
+      {
+        "id": 16,
+        "term": "Russell’s Correspondence Theory",
+        "definition": "Bertrand Russell’s version of the correspondence theory, which argues that truth is a relationship between beliefs and the external world."
+      },
+      {
+        "id": 17,
+        "term": "Blanshard’s Coherence Theory",
+        "definition": "A version of the coherence theory arguing that truth is determined by the logical interconnection of beliefs."
+      },
+      {
+        "id": 18,
+        "term": "William James’ Pragmatic Theory",
+        "definition": "A theory that defines truth as what is useful, beneficial, and leads to successful action."
+      },
+      {
+        "id": 19,
+        "term": "Richard Rorty’s Pragmatism",
+        "definition": "A modern version of pragmatism suggesting that truth is whatever has passed societal justification procedures."
+      },
+      {
+        "id": 20,
+        "term": "Reliabilism",
+        "definition": "An externalist theory stating that knowledge is justified if it is produced by a reliable cognitive process."
+      },
+      {
+        "id": 21,
+        "term": "Foundationalism",
+        "definition": "The epistemological view that knowledge is built upon foundational, self-evident beliefs."
+      },
+      {
+        "id": 22,
+        "term": "Coherentism",
+        "definition": "The view that beliefs are justified by their coherence with other beliefs rather than being based on foundational beliefs."
+      },
+      {
+        "id": 23,
+        "term": "Skeptical Hypothesis",
+        "definition": "A thought experiment suggesting we could be radically deceived, such as living in a simulation or being controlled by an evil demon."
+      },
+      {
+        "id": 24,
+        "term": "Cartesian Skepticism",
+        "definition": "A form of skepticism proposed by Descartes, questioning the reliability of sense experience and the possibility of absolute knowledge."
+      },
+      {
+        "id": 25,
+        "term": "Moorean Response to Skepticism",
+        "definition": "G.E. Moore’s argument that common-sense beliefs, such as 'Here is a hand,' provide a stronger justification than skeptical doubt."
+      },
+      {
+        "id": 26,
+        "term": "Testimony in Epistemology",
+        "definition": "The study of how knowledge can be acquired through the testimony of others."
+      },
+      {
+        "id": 27,
+        "term": "Bayesian Epistemology",
+        "definition": "A probabilistic approach to justification that updates beliefs based on new evidence."
+      },
+      {
+        "id": 28,
+        "term": "Ockham’s Razor",
+        "definition": "The principle that simpler explanations with fewer assumptions are preferable."
+      },
+      {
+        "id": 29,
+        "term": "Ethics of Belief",
+        "definition": "The philosophical discussion on whether we have a moral duty to ensure our beliefs are justified."
+      },
+      {
+        "id": 30,
+        "term": "W.K. Clifford’s Evidentialism",
+        "definition": "The argument that it is always morally wrong to believe anything without sufficient evidence."
+      },
+      {
+        "id": 31,
+        "term": "Feminist Epistemology",
+        "definition": "A critique of traditional epistemology, emphasizing how gender influences knowledge production and credibility."
+      },
+      {
+        "id": 32,
+        "term": "Standpoint Theory",
+        "definition": "The idea that marginalized groups have unique epistemic perspectives due to their social positioning."
+      },
+      {
+        "id": 33,
+        "term": "Gaslighting",
+        "definition": "A manipulative tactic that seeks to make people question their own perception and knowledge."
+      },
+      {
+        "id": 34,
+        "term": "Social Epistemology",
+        "definition": "The study of the social dimensions of knowledge, including testimony, collective belief, and epistemic justice."
+      },
+      {
+        "id": 35,
+        "term": "Scientific Realism",
+        "definition": "The belief that scientific theories describe reality as it truly is, independent of our perceptions."
+      }
+    ]
+  }

@@ -1,0 +1,189 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Aesthetics",
+        "definition": "The branch of philosophy concerned with the nature and appreciation of beauty, art, and taste."
+      },
+      {
+        "id": 2,
+        "term": "Philosophy of Art",
+        "definition": "A subfield of aesthetics that explores the nature, definition, and value of art."
+      },
+      {
+        "id": 3,
+        "term": "Aesthetic Value",
+        "definition": "The value an object has due to its ability to produce pleasure, convey truth, or serve moral and social functions."
+      },
+      {
+        "id": 4,
+        "term": "Art as Representation",
+        "definition": "The theory that art depicts or imitates objects in the world."
+      },
+      {
+        "id": 5,
+        "term": "Art as Expression",
+        "definition": "The view that art communicates an artist's emotions and prompts similar experiences in others."
+      },
+      {
+        "id": 6,
+        "term": "Formalism",
+        "definition": "The belief that art is defined by its formal characteristics, such as structure, unity, and harmony, rather than content."
+      },
+      {
+        "id": 7,
+        "term": "Aesthetic Objectivism",
+        "definition": "The belief that aesthetic properties exist independently of individual perception."
+      },
+      {
+        "id": 8,
+        "term": "Aesthetic Subjectivism",
+        "definition": "The belief that aesthetic judgments are purely subjective and based on individual perception."
+      },
+      {
+        "id": 9,
+        "term": "Plato’s Theory of Beauty",
+        "definition": "Argues that beauty is an eternal form existing in an unchanging realm beyond the physical world."
+      },
+      {
+        "id": 10,
+        "term": "Aristotle on Beauty",
+        "definition": "Believed beauty exists in the physical world and can be understood through knowledge and skill."
+      },
+      {
+        "id": 11,
+        "term": "Martin Gardner on Aesthetic Standards",
+        "definition": "Argued that universal aesthetic standards exist, though they may be difficult to define precisely."
+      },
+      {
+        "id": 12,
+        "term": "David Hume on Taste",
+        "definition": "Claimed that aesthetic judgments are subjective but that stable patterns exist in human responses to beauty."
+      },
+      {
+        "id": 13,
+        "term": "Feminist Aesthetics",
+        "definition": "A movement that critiques male-dominated art history and seeks to highlight the contributions of female artists."
+      },
+      {
+        "id": 14,
+        "term": "The Meaning of Life",
+        "definition": "A fundamental philosophical question concerning the purpose, value, and significance of human existence."
+      },
+      {
+        "id": 15,
+        "term": "Albert Camus on Absurdity",
+        "definition": "Argued that life is absurd because humans seek meaning in a meaningless universe."
+      },
+      {
+        "id": 16,
+        "term": "Existentialism",
+        "definition": "A philosophy that emphasizes individual freedom, choice, and the responsibility to create meaning."
+      },
+      {
+        "id": 17,
+        "term": "Søren Kierkegaard on Life’s Stages",
+        "definition": "Proposed three stages of life: aesthetic (pleasure-seeking), ethical (moral commitment), and religious (faith-based)."
+      },
+      {
+        "id": 18,
+        "term": "Jean-Paul Sartre on Meaning",
+        "definition": "Argued that meaning is not inherent in life but must be chosen by the individual."
+      },
+      {
+        "id": 19,
+        "term": "Subjective Meaning of Life",
+        "definition": "The belief that individuals create their own meaning based on personal values and goals."
+      },
+      {
+        "id": 20,
+        "term": "Objective Meaning of Life",
+        "definition": "The belief that meaning exists independently of individual perception and is derived from higher principles."
+      },
+      {
+        "id": 21,
+        "term": "Tolstoy on Meaning",
+        "definition": "Argued that meaning is found in religious faith and service to others."
+      },
+      {
+        "id": 22,
+        "term": "Schopenhauer on Nihilism",
+        "definition": "Believed life is meaningless due to the inevitable suffering and impermanence of human existence."
+      },
+      {
+        "id": 23,
+        "term": "Susan Wolf on Meaning",
+        "definition": "Claimed that meaningful lives involve engagement in objectively valuable projects."
+      },
+      {
+        "id": 24,
+        "term": "Theistic Meaning",
+        "definition": "The belief that life’s meaning is derived from God’s purpose and divine order."
+      },
+      {
+        "id": 25,
+        "term": "Atheistic Nihilism",
+        "definition": "The belief that life lacks inherent meaning and that humans must accept this reality."
+      },
+      {
+        "id": 26,
+        "term": "The Myth of Sisyphus",
+        "definition": "Camus’ metaphor for the human condition, depicting a man condemned to a meaningless, repetitive task."
+      },
+      {
+        "id": 27,
+        "term": "Bertrand Russell on Meaning",
+        "definition": "Argued that meaning is found in human relationships, creativity, and intellectual pursuits."
+      },
+      {
+        "id": 28,
+        "term": "Richard Taylor on Meaning",
+        "definition": "Suggested that meaning comes from pursuing personally fulfilling activities, even if life itself has no inherent meaning."
+      },
+      {
+        "id": 29,
+        "term": "Nagel on Absurdity",
+        "definition": "Proposed that life is absurd because humans take life seriously while knowing it is insignificant in the grand scheme."
+      },
+      {
+        "id": 30,
+        "term": "Humanistic Meaning",
+        "definition": "The belief that meaning comes from human progress, relationships, and contributing to society."
+      },
+      {
+        "id": 31,
+        "term": "Hegel on Historical Progress",
+        "definition": "Believed meaning is found in contributing to the evolution of human freedom and consciousness."
+      },
+      {
+        "id": 32,
+        "term": "Marx on Economic Justice",
+        "definition": "Argued that meaning is linked to overcoming economic oppression and achieving social equality."
+      },
+      {
+        "id": 33,
+        "term": "Baggini on Meaning",
+        "definition": "Criticized nihilism by arguing that meaning is still possible without external purpose."
+      },
+      {
+        "id": 34,
+        "term": "Wolf’s ‘Projects of Worth’",
+        "definition": "Suggested that meaningful lives involve engaging in activities that have objective value."
+      },
+      {
+        "id": 35,
+        "term": "Internal vs. External Meaning",
+        "definition": "Internal meaning is self-created, while external meaning is derived from outside sources, such as religion or universal principles."
+      },
+      {
+        "id": 36,
+        "term": "Pessimism about Meaning",
+        "definition": "The belief that life lacks inherent purpose and that seeking meaning is futile."
+      },
+      {
+        "id": 37,
+        "term": "Optimism about Meaning",
+        "definition": "The belief that meaning can be found through human efforts, relationships, or divine purpose."
+      }
+    ]
+  }

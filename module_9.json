@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Philosophy of Race",
+        "definition": "A field of philosophy that examines the nature of race, racial identity, racism, and their social and political implications."
+      },
+      {
+        "id": 2,
+        "term": "Race as a Social Construct",
+        "definition": "The view that race is not biologically real but is instead a social classification system shaped by historical and cultural contexts."
+      },
+      {
+        "id": 3,
+        "term": "Racial Naturalism",
+        "definition": "The now-discredited belief that races are distinct biological groups with inherent differences."
+      },
+      {
+        "id": 4,
+        "term": "Racial Constructivism",
+        "definition": "The theory that race exists as a social reality, shaped by power structures and historical contexts, rather than biological essence."
+      },
+      {
+        "id": 5,
+        "term": "Racial Skepticism",
+        "definition": "The belief that race does not exist in any meaningful sense, either biologically or socially."
+      },
+      {
+        "id": 6,
+        "term": "Racial Population Naturalism",
+        "definition": "A perspective that acknowledges genetic differences between populations without endorsing traditional racial categories."
+      },
+      {
+        "id": 7,
+        "term": "Intersectionality",
+        "definition": "A framework that examines how race, gender, class, and other social identities interact to create unique experiences of oppression."
+      },
+      {
+        "id": 8,
+        "term": "White Privilege",
+        "definition": "The unearned advantages and systemic benefits that white individuals often experience in society."
+      },
+      {
+        "id": 9,
+        "term": "Critical Philosophy of Race",
+        "definition": "A field that examines how race functions as a structural and systemic force in society."
+      },
+      {
+        "id": 10,
+        "term": "Racism",
+        "definition": "A system of prejudice and discrimination that combines social power structures with racial bias."
+      },
+      {
+        "id": 11,
+        "term": "Eliminativism about Race",
+        "definition": "The belief that race should no longer be used as a category since it is misleading and harmful."
+      },
+      {
+        "id": 12,
+        "term": "Conservationism about Race",
+        "definition": "The idea that race should be retained as a category for social justice purposes."
+      },
+      {
+        "id": 13,
+        "term": "Moral Status of Race",
+        "definition": "The philosophical question of whether racial identities should be preserved or eliminated."
+      },
+      {
+        "id": 14,
+        "term": "Phenomenology of Race",
+        "definition": "The study of how individuals experience and perceive race in their daily lives."
+      },
+      {
+        "id": 15,
+        "term": "Genetic Isolation & Race",
+        "definition": "The debate over whether historical population separations created meaningful genetic differences between racial groups."
+      },
+      {
+        "id": 16,
+        "term": "Race & Ethnicity",
+        "definition": "Race is often imposed based on perceived physical traits, while ethnicity is linked to cultural identity and ancestry."
+      },
+      {
+        "id": 17,
+        "term": "Racial Hierarchies",
+        "definition": "The structuring of racial groups into superior and inferior categories, often tied to historical and colonial legacies."
+      },
+      {
+        "id": 18,
+        "term": "Affirmative Action",
+        "definition": "Policies designed to address historical racial injustices by promoting representation in education and employment."
+      },
+      {
+        "id": 19,
+        "term": "Racial Profiling",
+        "definition": "The practice of targeting individuals for scrutiny based on racial stereotypes rather than individual behavior."
+      },
+      {
+        "id": 20,
+        "term": "Reparations",
+        "definition": "The idea that historical injustices, such as slavery and colonization, warrant compensation to affected racial groups."
+      },
+      {
+        "id": 21,
+        "term": "Lawrence Blum on Race",
+        "definition": "Critiques biological race but acknowledges the social and political significance of racialized groups."
+      },
+      {
+        "id": 22,
+        "term": "Kwame Anthony Appiah on Race",
+        "definition": "Argues against racial essentialism but acknowledges racial identities as important for combating racism."
+      },
+      {
+        "id": 23,
+        "term": "Tommie Shelby on Race",
+        "definition": "Advocates for using 'racialized groups' instead of 'race' to emphasize social construction while avoiding biological implications."
+      },
+      {
+        "id": 24,
+        "term": "Charles Mills on Race",
+        "definition": "Critiques traditional social contract theory and argues for a non-ideal contract that accounts for racial injustice."
+      },
+      {
+        "id": 25,
+        "term": "W.E.B. Du Bois on Race",
+        "definition": "Introduced the concept of 'double consciousness' to describe the experience of Black Americans navigating a racialized society."
+      },
+      {
+        "id": 26,
+        "term": "Frantz Fanon on Race",
+        "definition": "Examined the psychological effects of colonialism and racism on Black identity."
+      },
+      {
+        "id": 27,
+        "term": "Scientific Racism",
+        "definition": "The discredited use of science to justify racial hierarchies and discrimination."
+      },
+      {
+        "id": 28,
+        "term": "Eugenics",
+        "definition": "A pseudoscientific movement advocating for selective breeding to 'improve' the genetic quality of human populations."
+      },
+      {
+        "id": 29,
+        "term": "Social Darwinism",
+        "definition": "A misapplication of Darwinian ideas to justify racial and social hierarchies."
+      },
+      {
+        "id": 30,
+        "term": "The American School of Anthropology",
+        "definition": "A 19th-century group that promoted polygenesis and viewed racial groups as separate species."
+      },
+      {
+        "id": 31,
+        "term": "Franz Boas on Race",
+        "definition": "Challenged fixed racial categories by emphasizing the role of environment in shaping human traits."
+      },
+      {
+        "id": 32,
+        "term": "Ashley Montagu on Race",
+        "definition": "Argued against the biological basis of race and promoted the idea that race is a social construct."
+      },
+      {
+        "id": 33,
+        "term": "Johann Friedrich Blumenbach",
+        "definition": "Developed one of the earliest racial classification systems but rejected polygenesis."
+      },
+      {
+        "id": 34,
+        "term": "Racialization",
+        "definition": "The process by which certain groups are socially constructed as racial categories."
+      },
+      {
+        "id": 35,
+        "term": "Pan-Ethnicity",
+        "definition": "The grouping of diverse ethnic identities into broader racial categories, such as 'Asian American' or 'Latino.'"
+      }
+    ]
+  }

@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Philosophy of Religion",
+        "definition": "A branch of philosophy that examines the nature of religion, the existence of God, religious beliefs, and their justification."
+      },
+      {
+        "id": 2,
+        "term": "Theism",
+        "definition": "Belief in the existence of a personal, involved deity."
+      },
+      {
+        "id": 3,
+        "term": "Deism",
+        "definition": "Belief in an impersonal deity who created the universe but does not intervene in worldly affairs."
+      },
+      {
+        "id": 4,
+        "term": "Atheism",
+        "definition": "Belief in the nonexistence of any god(s)."
+      },
+      {
+        "id": 5,
+        "term": "Agnosticism",
+        "definition": "The position of neither accepting nor rejecting the existence of a god(s), often due to insufficient evidence."
+      },
+      {
+        "id": 6,
+        "term": "Monotheism",
+        "definition": "Belief in a single, unified personal deity."
+      },
+      {
+        "id": 7,
+        "term": "Polytheism",
+        "definition": "Belief in multiple personal deities."
+      },
+      {
+        "id": 8,
+        "term": "Pantheism",
+        "definition": "Belief that the universe and the divine are one and the same; a unified whole."
+      },
+      {
+        "id": 9,
+        "term": "Panentheism",
+        "definition": "Belief that the divine is both within and beyond the universe."
+      },
+      {
+        "id": 10,
+        "term": "Cosmological Argument",
+        "definition": "An argument for God's existence based on the idea that the universe requires a first cause or necessary being."
+      },
+      {
+        "id": 11,
+        "term": "Teleological Argument",
+        "definition": "An argument for God's existence based on the apparent design and purpose observed in the universe."
+      },
+      {
+        "id": 12,
+        "term": "Ontological Argument",
+        "definition": "An argument for God's existence that attempts to prove God’s existence through the concept of a perfect being."
+      },
+      {
+        "id": 13,
+        "term": "Pascal’s Wager",
+        "definition": "An argument suggesting that belief in God is the best 'bet' due to the potential eternal benefits of belief."
+      },
+      {
+        "id": 14,
+        "term": "Problem of Evil",
+        "definition": "An argument against God's existence that questions how an all-powerful, all-knowing, and all-good God can allow unnecessary suffering."
+      },
+      {
+        "id": 15,
+        "term": "William Paley",
+        "definition": "A theologian known for the 'watchmaker' analogy, a teleological argument for God's existence."
+      },
+      {
+        "id": 16,
+        "term": "Thomas Aquinas",
+        "definition": "A philosopher who proposed the Five Ways, including the cosmological argument for God's existence."
+      },
+      {
+        "id": 17,
+        "term": "Alvin Plantinga",
+        "definition": "Philosopher known for 'Reformed Epistemology,' arguing that belief in God can be rational without evidence."
+      },
+      {
+        "id": 18,
+        "term": "Richard Swinburne",
+        "definition": "A philosopher who defends the existence of God based on arguments from religious experience and probability."
+      },
+      {
+        "id": 19,
+        "term": "William James",
+        "definition": "A philosopher who argued that belief in God can be justified through personal religious experience and pragmatic reasons."
+      },
+      {
+        "id": 20,
+        "term": "Ninian Smart’s Seven Dimensions of Religion",
+        "definition": "A framework identifying the ritual, emotional, narrative, doctrinal, ethical, social, and material dimensions of religion."
+      },
+      {
+        "id": 21,
+        "term": "Bertrand Russell",
+        "definition": "A philosopher who argued that philosophy’s value lies in the questions it raises rather than the answers it provides."
+      },
+      {
+        "id": 22,
+        "term": "Epistemology",
+        "definition": "The branch of philosophy concerned with knowledge, belief, and justification."
+      },
+      {
+        "id": 23,
+        "term": "Foundationalism",
+        "definition": "The epistemological theory that some beliefs are justified independently of other beliefs."
+      },
+      {
+        "id": 24,
+        "term": "Evidentialism",
+        "definition": "The theory that beliefs are justified only if supported by sufficient evidence."
+      },
+      {
+        "id": 25,
+        "term": "Religious Experience",
+        "definition": "A subjective experience interpreted as a direct encounter with the divine."
+      },
+      {
+        "id": 26,
+        "term": "Inference to the Best Explanation",
+        "definition": "An argument form that suggests belief in God is justified because it is the best explanation for religious phenomena."
+      },
+      {
+        "id": 27,
+        "term": "Ockham’s Razor",
+        "definition": "The principle that the simplest explanation with the fewest assumptions is preferable."
+      },
+      {
+        "id": 28,
+        "term": "Pragmatism",
+        "definition": "A philosophical approach that evaluates beliefs based on their practical consequences and usefulness."
+      },
+      {
+        "id": 29,
+        "term": "Logic",
+        "definition": "The study of reasoning and argument structure."
+      },
+      {
+        "id": 30,
+        "term": "Deductive Argument",
+        "definition": "An argument where the conclusion necessarily follows from the premises."
+      },
+      {
+        "id": 31,
+        "term": "Inductive Argument",
+        "definition": "An argument where the premises support the probability of the conclusion."
+      },
+      {
+        "id": 32,
+        "term": "Sound Argument",
+        "definition": "A deductive argument that is both valid and has all true premises."
+      },
+      {
+        "id": 33,
+        "term": "Valid Argument",
+        "definition": "An argument where, if the premises are true, the conclusion must be true."
+      },
+      {
+        "id": 34,
+        "term": "Cogent Argument",
+        "definition": "An inductive argument that is strong and has all true premises."
+      },
+      {
+        "id": 35,
+        "term": "Fallacy",
+        "definition": "An error in reasoning that weakens an argument."
+      }
+    ]
+  }

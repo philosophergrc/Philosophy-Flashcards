@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Metaphysics",
+        "definition": "The study of the nature of reality, existence, and fundamental questions about the universe."
+      },
+      {
+        "id": 2,
+        "term": "Ontology",
+        "definition": "A branch of metaphysics concerned with the study of being and existence."
+      },
+      {
+        "id": 3,
+        "term": "Materialism (Physicalism)",
+        "definition": "The view that everything that exists is physical or material in nature."
+      },
+      {
+        "id": 4,
+        "term": "Dualism",
+        "definition": "The belief that reality consists of two fundamental substances, such as mind and body."
+      },
+      {
+        "id": 5,
+        "term": "Mind-Body Problem",
+        "definition": "The philosophical issue concerning the relationship between consciousness (the mind) and the physical body."
+      },
+      {
+        "id": 6,
+        "term": "Substance Dualism",
+        "definition": "René Descartes' view that the mind and body are separate substances that interact with each other."
+      },
+      {
+        "id": 7,
+        "term": "Property Dualism",
+        "definition": "The view that mental properties arise from physical properties but are not reducible to them."
+      },
+      {
+        "id": 8,
+        "term": "Identity Theory",
+        "definition": "The theory that mental states are identical to physical brain states."
+      },
+      {
+        "id": 9,
+        "term": "Logical Behaviorism",
+        "definition": "The view that mental states are simply dispositions to behave in certain ways."
+      },
+      {
+        "id": 10,
+        "term": "Epiphenomenalism",
+        "definition": "The theory that mental states do not cause physical events but are instead byproducts of physical processes."
+      },
+      {
+        "id": 11,
+        "term": "Functionalism",
+        "definition": "The theory that mental states are defined by their functional roles rather than their physical makeup."
+      },
+      {
+        "id": 12,
+        "term": "Eliminative Materialism",
+        "definition": "The belief that mental states like beliefs and desires do not actually exist and will be eliminated as science progresses."
+      },
+      {
+        "id": 13,
+        "term": "Reductionism",
+        "definition": "The idea that complex phenomena, such as the mind, can be fully explained by simpler physical processes."
+      },
+      {
+        "id": 14,
+        "term": "René Descartes",
+        "definition": "Philosopher known for substance dualism and the famous phrase 'I think, therefore I am.'"
+      },
+      {
+        "id": 15,
+        "term": "Descartes' Argument for Dualism",
+        "definition": "The argument that the mind and body are distinct because we can doubt the existence of our body but not our mind."
+      },
+      {
+        "id": 16,
+        "term": "Interaction Problem",
+        "definition": "A challenge to dualism: how can a nonphysical mind interact with a physical body?"
+      },
+      {
+        "id": 17,
+        "term": "Gottfried Leibniz’s Parallelism",
+        "definition": "The idea that the mind and body do not interact but are instead synchronized like two clocks."
+      },
+      {
+        "id": 18,
+        "term": "Nicolas Malebranche’s Occasionalism",
+        "definition": "The view that God intervenes to coordinate interactions between the mind and body."
+      },
+      {
+        "id": 19,
+        "term": "Thomas Hobbes' Materialism",
+        "definition": "The belief that mental activities are purely physical processes occurring in the brain."
+      },
+      {
+        "id": 20,
+        "term": "J.J.C. Smart's Identity Theory",
+        "definition": "The idea that mental states are strictly identical to brain states."
+      },
+      {
+        "id": 21,
+        "term": "David Chalmers' Zombie Argument",
+        "definition": "A thought experiment suggesting that a physically identical being could lack consciousness, challenging materialism."
+      },
+      {
+        "id": 22,
+        "term": "Thomas Nagel’s 'What Is It Like to Be a Bat?'",
+        "definition": "An argument against materialism stating that subjective experience cannot be fully explained by physical processes."
+      },
+      {
+        "id": 23,
+        "term": "The New Dualism",
+        "definition": "A modern take on dualism that emphasizes the distinct properties of consciousness rather than substances."
+      },
+      {
+        "id": 24,
+        "term": "Artificial Intelligence and Functionalism",
+        "definition": "The idea that mental states can be understood as computational processes similar to those in computers."
+      },
+      {
+        "id": 25,
+        "term": "The Turing Test",
+        "definition": "A test to determine whether a machine can exhibit intelligent behavior indistinguishable from that of a human."
+      },
+      {
+        "id": 26,
+        "term": "John Searle's Chinese Room Argument",
+        "definition": "An argument against strong AI, claiming that a machine can process information without truly understanding it."
+      },
+      {
+        "id": 27,
+        "term": "Strong AI vs. Weak AI",
+        "definition": "Strong AI posits that a properly programmed computer has a mind, while Weak AI sees AI as a tool for simulating intelligence."
+      },
+      {
+        "id": 28,
+        "term": "Ned Block's Chinese Brain Argument",
+        "definition": "A critique of functionalism suggesting that a system with functional organization might still lack consciousness."
+      },
+      {
+        "id": 29,
+        "term": "The Homunculi-Headed Robot Thought Experiment",
+        "definition": "A thought experiment arguing against functionalism by suggesting that a system could have the right functional structure without genuine consciousness."
+      },
+      {
+        "id": 30,
+        "term": "Qualia",
+        "definition": "The subjective, first-person experiences that some argue cannot be explained by physical processes alone."
+      },
+      {
+        "id": 31,
+        "term": "The Hard Problem of Consciousness",
+        "definition": "David Chalmers’ argument that explaining subjective experience is fundamentally different from explaining cognitive functions."
+      },
+      {
+        "id": 32,
+        "term": "Panpsychism",
+        "definition": "The theory that consciousness is a fundamental feature of all matter in the universe."
+      },
+      {
+        "id": 33,
+        "term": "Emergentism",
+        "definition": "The idea that consciousness emerges from complex physical processes but is not reducible to them."
+      },
+      {
+        "id": 34,
+        "term": "Compatibilism",
+        "definition": "The belief that free will and determinism are compatible concepts."
+      },
+      {
+        "id": 35,
+        "term": "Libertarian Free Will",
+        "definition": "The view that humans have free will and that our actions are not determined by prior causes."
+      }
+    ]
+  }

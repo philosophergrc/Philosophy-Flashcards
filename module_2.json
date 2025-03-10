@@ -2,55 +2,178 @@
   "flashcards": [
     {
       "id": 1,
-      "term": "Scholasticism",
-      "definition": "A medieval method that used reason to explain faith."
+      "term": "Siddhartha Gautama",
+      "definition": "Founder of Buddhism, also known as 'The Buddha' or 'The Awakened One'."
     },
     {
       "id": 2,
-      "term": "Summa Theologica",
-      "definition": "Thomas Aquinas' comprehensive work reconciling faith and reason."
+      "term": "Four Noble Truths",
+      "definition": "Core Buddhist teachings about suffering, its cause, its cessation, and the Eightfold Path to enlightenment."
     },
     {
       "id": 3,
-
-      "term": "Problem of Universals",
-      "definition": "A debate over whether universals exist independently of particular things."
+      "term": "Eightfold Path",
+      "definition": "A guide to ethical and mental development in Buddhism, leading to the cessation of suffering and enlightenment."
     },
     {
       "id": 4,
-
-      "term": "Divine Illumination",
-      "definition": "The concept that God bestows knowledge upon humans."
+      "term": "Anatta (Anatman)",
+      "definition": "The Buddhist doctrine of 'Not-Self', rejecting the idea of a permanent, unchanging self."
     },
     {
       "id": 5,
-      "term": "Nominalism",
-      "definition": "The philosophical view that universals are merely names without any corresponding reality."
+      "term": "Theravada Buddhism",
+      "definition": "The 'Way of the Elders'; a more conservative branch of Buddhism focused on monastic life and individual enlightenment."
     },
     {
       "id": 6,
-      "term": "Realism in Philosophy",
-      "definition": "The doctrine that universals and abstract concepts exist independently of the mind."
+      "term": "Mahayana Buddhism",
+      "definition": "A branch of Buddhism that emphasizes the role of the Bodhisattva and collective liberation."
     },
     {
       "id": 7,
-      "term": "Augustinian Thought",
-      "definition": "The ideas of St. Augustine, especially regarding the nature of sin and grace."
+      "term": "Vajrayana Buddhism",
+      "definition": "A form of Mahayana Buddhism practiced mainly in Tibet and Mongolia, incorporating tantric practices."
     },
     {
       "id": 8,
-      "term": "Mysticism",
-      "definition": "The pursuit of experiencing the divine through direct, personal perception."
+      "term": "Confucius (Kongzi)",
+      "definition": "Founder of Confucianism, emphasized moral virtue, proper social relationships, and education."
     },
     {
       "id": 9,
-      "term": "Averroism",
-      "definition": "A medieval interpretation of Aristotle’s work, emphasizing rationality."
+      "term": "Ren (仁)",
+      "definition": "Confucian concept of benevolence, kindness, and humaneness towards others."
     },
     {
       "id": 10,
-      "term": "Medieval Ethics",
-      "definition": "Ethical theories that focus on aligning human life with divine order."
+      "term": "Li (禮)",
+      "definition": "Confucian principle of ritual propriety, ensuring social harmony through proper conduct."
+    },
+    {
+      "id": 11,
+      "term": "Dao (The Way)",
+      "definition": "The fundamental concept in Daoism, representing the natural order and flow of the universe."
+    },
+    {
+      "id": 12,
+      "term": "Wu Wei (無為)",
+      "definition": "A Daoist principle of effortless action, acting in harmony with the natural flow of the Dao."
+    },
+    {
+      "id": 13,
+      "term": "Yin and Yang",
+      "definition": "A Daoist concept of dualism, describing how opposite forces are interconnected and interdependent."
+    },
+    {
+      "id": 14,
+      "term": "Zhuangzi",
+      "definition": "A Daoist philosopher who emphasized spontaneity, skepticism of conventional knowledge, and the relativity of perspectives."
+    },
+    {
+      "id": 15,
+      "term": "Xunzi",
+      "definition": "A Confucian philosopher who believed human nature is inherently bad and must be cultivated through education and ritual."
+    },
+    {
+      "id": 16,
+      "term": "Mengzi (Mencius)",
+      "definition": "A Confucian philosopher who believed human nature is inherently good and needs proper cultivation."
+    },
+    {
+      "id": 17,
+      "term": "Vedas",
+      "definition": "Ancient Hindu scriptures containing hymns, philosophy, and rituals central to Hindu beliefs."
+    },
+    {
+      "id": 18,
+      "term": "Upanishads",
+      "definition": "Philosophical texts that explore the nature of reality, Brahman, and Atman in Hinduism."
+    },
+    {
+      "id": 19,
+      "term": "Bhagavad Gita",
+      "definition": "A sacred Hindu text that is part of the Mahabharata, presenting teachings on duty, righteousness, and devotion."
+    },
+    {
+      "id": 20,
+      "term": "Brahman",
+      "definition": "The ultimate reality in Hinduism, transcendent and immanent, beyond all distinctions."
+    },
+    {
+      "id": 21,
+      "term": "Atman",
+      "definition": "The true self or soul in Hinduism, ultimately identical to Brahman."
+    },
+    {
+      "id": 22,
+      "term": "Samsara",
+      "definition": "The cycle of birth, death, and rebirth in Hinduism and Buddhism."
+    },
+    {
+      "id": 23,
+      "term": "Moksha",
+      "definition": "The ultimate goal in Hinduism, signifying liberation from the cycle of birth and rebirth (samsara)."
+    },
+    {
+      "id": 24,
+      "term": "Karma",
+      "definition": "The law of cosmic justice; actions determine future consequences in Hinduism and Buddhism."
+    },
+    {
+      "id": 25,
+      "term": "Dharma",
+      "definition": "The duty, righteousness, and moral law governing an individual's life in Hinduism and Buddhism."
+    },
+    {
+      "id": 26,
+      "term": "Bodhisattva",
+      "definition": "In Mahayana Buddhism, an enlightened being who postpones Nirvana to help others attain enlightenment."
+    },
+    {
+      "id": 27,
+      "term": "Shunyata (Emptiness)",
+      "definition": "A key Mahayana Buddhist concept stating that all things are void of intrinsic existence."
+    },
+    {
+      "id": 28,
+      "term": "Junzi (君子)",
+      "definition": "Confucian term for the 'superior person' who embodies virtue and moral integrity."
+    },
+    {
+      "id": 29,
+      "term": "Tian (天)",
+      "definition": "The concept of Heaven in Confucianism, representing cosmic order and moral authority."
+    },
+    {
+      "id": 30,
+      "term": "Daoism vs. Confucianism",
+      "definition": "Daoism emphasizes harmony with nature and spontaneity, while Confucianism focuses on social harmony through moral cultivation."
+    },
+    {
+      "id": 31,
+      "term": "Avatars of Vishnu",
+      "definition": "The ten earthly incarnations of the Hindu god Vishnu, including Krishna and Rama."
+    },
+    {
+      "id": 32,
+      "term": "The Three Gunas",
+      "definition": "Hindu philosophical concept of three fundamental qualities: Sattva (purity), Rajas (passion), and Tamas (inertia)."
+    },
+    {
+      "id": 33,
+      "term": "Mandate of Heaven",
+      "definition": "A Chinese philosophical concept that a ruler's legitimacy is granted by divine authority, but can be revoked if they fail to govern justly."
+    },
+    {
+      "id": 34,
+      "term": "Legalism",
+      "definition": "A Chinese political philosophy emphasizing strict laws and harsh punishments to maintain order."
+    },
+    {
+      "id": 35,
+      "term": "Pure Land Buddhism",
+      "definition": "A Mahayana Buddhist tradition that teaches salvation through faith in the Buddha Amitabha and rebirth in the Pure Land."
     }
   ]
 }

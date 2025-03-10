@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Free Will",
+        "definition": "The ability to choose a course of action from among various alternatives."
+      },
+      {
+        "id": 2,
+        "term": "Determinism",
+        "definition": "The doctrine that every event is determined by preceding events and the laws of nature."
+      },
+      {
+        "id": 3,
+        "term": "Hard Determinism",
+        "definition": "The view that free will does not exist because the universe is causally determined."
+      },
+      {
+        "id": 4,
+        "term": "Soft Determinism (Compatibilism)",
+        "definition": "The view that determinism is true, but free will can still exist in a meaningful sense."
+      },
+      {
+        "id": 5,
+        "term": "Libertarianism (Free Will)",
+        "definition": "The belief that some actions are free because they are ultimately caused by the agent and not determined by prior events."
+      },
+      {
+        "id": 6,
+        "term": "Incompatibilism",
+        "definition": "The view that free will and determinism cannot both be true."
+      },
+      {
+        "id": 7,
+        "term": "Fatalism",
+        "definition": "The belief that all events are predetermined and inevitable."
+      },
+      {
+        "id": 8,
+        "term": "Baron d’Holbach",
+        "definition": "A philosopher who argued for hard determinism, claiming human actions are dictated by natural laws."
+      },
+      {
+        "id": 9,
+        "term": "The Argument for Hard Determinism",
+        "definition": "States that if determinism is true, then all actions are inevitable and free will is an illusion."
+      },
+      {
+        "id": 10,
+        "term": "The Indeterminist Argument for Free Will",
+        "definition": "Suggests that if people could have done otherwise, then free will must exist."
+      },
+      {
+        "id": 11,
+        "term": "Compatibilism & Free Will",
+        "definition": "Defines free will as the ability to act according to one's desires without external coercion."
+      },
+      {
+        "id": 12,
+        "term": "W.T. Stace on Compatibilism",
+        "definition": "Argued that free will exists as long as actions are caused by internal psychological states rather than external forces."
+      },
+      {
+        "id": 13,
+        "term": "Compatibilism’s Definition of Free Will",
+        "definition": "Redefines free will as acting according to one's motivations, even if those motivations are determined."
+      },
+      {
+        "id": 14,
+        "term": "Problem of Predictability",
+        "definition": "The issue of whether predictability threatens free will, as determined actions could still be 'chosen.'"
+      },
+      {
+        "id": 15,
+        "term": "The Wallet at Gunpoint Example",
+        "definition": "An example used to show how compatibilists differentiate between internal and external coercion."
+      },
+      {
+        "id": 16,
+        "term": "The Argument Against Compatibilism",
+        "definition": "Criticizes compatibilism for redefining free will in a way that does not align with our intuitions."
+      },
+      {
+        "id": 17,
+        "term": "Libertarian Intuitions",
+        "definition": "The belief that individuals genuinely have the power to choose among different possible actions."
+      },
+      {
+        "id": 18,
+        "term": "Agent Causation",
+        "definition": "The libertarian idea that free actions are caused by an agent rather than prior events."
+      },
+      {
+        "id": 19,
+        "term": "The Problem of Causation in Free Will",
+        "definition": "The question of how an agent can cause an action without it being determined by prior events."
+      },
+      {
+        "id": 20,
+        "term": "Timothy O’Connor on Libertarianism",
+        "definition": "Argues that libertarians do not need a 'second-order' explanation of why agents choose as they do."
+      },
+      {
+        "id": 21,
+        "term": "Existentialism & Free Will",
+        "definition": "A philosophical perspective emphasizing radical human freedom and responsibility."
+      },
+      {
+        "id": 22,
+        "term": "Jean-Paul Sartre’s View on Free Will",
+        "definition": "Argued that humans are 'condemned to be free' because they must create their own values and meaning."
+      },
+      {
+        "id": 23,
+        "term": "Sartre’s Principle of Existentialism",
+        "definition": "Claims that humans have no predefined essence and must define themselves through actions."
+      },
+      {
+        "id": 24,
+        "term": "Moral Responsibility & Free Will",
+        "definition": "The idea that moral responsibility depends on whether or not people have free will."
+      },
+      {
+        "id": 25,
+        "term": "The Problem of Moral Responsibility",
+        "definition": "If determinism is true, it is unclear how people can be held morally responsible for actions they could not avoid."
+      },
+      {
+        "id": 26,
+        "term": "Compatibilist View on Moral Responsibility",
+        "definition": "Argues that responsibility depends on acting according to one's character and desires."
+      },
+      {
+        "id": 27,
+        "term": "Libertarian View on Moral Responsibility",
+        "definition": "States that people are morally responsible only if they have genuine free will."
+      },
+      {
+        "id": 28,
+        "term": "Neuroscience & Free Will",
+        "definition": "Scientific studies suggest brain activity may precede conscious decision-making, raising questions about free will."
+      },
+      {
+        "id": 29,
+        "term": "Libet’s Experiment",
+        "definition": "An experiment suggesting that brain activity predicting a decision occurs before conscious awareness of the choice."
+      },
+      {
+        "id": 30,
+        "term": "Implications of Neuroscience for Free Will",
+        "definition": "Findings in neuroscience challenge traditional notions of free will by implying unconscious processes drive decisions."
+      },
+      {
+        "id": 31,
+        "term": "Quantum Mechanics & Free Will",
+        "definition": "Some argue that quantum indeterminacy allows for free will, though others claim randomness does not equal control."
+      },
+      {
+        "id": 32,
+        "term": "Panpsychism & Free Will",
+        "definition": "A view suggesting that consciousness is fundamental and may play a role in free will."
+      },
+      {
+        "id": 33,
+        "term": "Sam Harris on Free Will",
+        "definition": "Argues that free will is an illusion and that human behavior is determined by prior causes."
+      },
+      {
+        "id": 34,
+        "term": "Daniel Dennett on Compatibilism",
+        "definition": "Defends compatibilism by redefining free will as the ability to act on rational deliberation."
+      },
+      {
+        "id": 35,
+        "term": "Final Question: Is Free Will an Illusion?",
+        "definition": "A central debate in philosophy: are our choices truly free, or are they determined by prior events and causes?"
+      }
+    ]
+  }

@@ -169,6 +169,156 @@
       "id": 34,
       "term": "Eudaimonia",
       "definition": "A central concept in Aristotelian ethics meaning human flourishing or well-being."
+    },
+    {
+      "id": 35,
+      "term": "Philosophical Thinking",
+      "definition": "Thinking about the truth of a philosophical belief."
+    },
+    {
+      "id": 36,
+      "term": "Bias",
+      "definition": "An obstacle to thinking well by preferring someone or something for irrelevant reasons."
+    },
+    {
+      "id": 37,
+      "term": "Value of Philosophy (Russell)",
+      "definition": "Philosophy’s value lies in its uncertainty, challenging assumptions and freeing the mind from prejudice."
+    },
+    {
+      "id": 38,
+      "term": "Practicality vs. Philosophy",
+      "definition": "Russell criticized 'practical' people for valuing material needs while neglecting intellectual development."
+    },
+    {
+      "id": 39,
+      "term": "Philosophy as Inquiry",
+      "definition": "The process of critically examining beliefs, questioning assumptions, and constructing logical arguments."
+    },
+    {
+      "id": 40,
+      "term": "Philosophical Contemplation",
+      "definition": "A state of mind that seeks knowledge beyond personal biases, expanding one's view of the world."
+    },
+    {
+      "id": 41,
+      "term": "Citizenship of the Universe",
+      "definition": "Russell’s idea that philosophy enables individuals to transcend narrow worldviews and embrace universal understanding."
+    },
+    {
+      "id": 42,
+      "term": "Philosophy and Logic",
+      "definition": "Philosophy is built upon logic, which codifies rules for correct reasoning and argumentation."
+    },
+    {
+      "id": 43,
+      "term": "Metaphysics (Expanded)",
+      "definition": "A branch of philosophy that explores the nature of reality, including existence, time, and the universe."
+    },
+    {
+      "id": 44,
+      "term": "Axiology (Expanded)",
+      "definition": "The study of values, including moral values (ethics) and aesthetic values (beauty and art)."
+    },
+    {
+      "id": 45,
+      "term": "Critical Examination",
+      "definition": "The philosophical practice of analyzing and questioning beliefs to ensure they are justified and reasonable."
+    },
+    {
+      "id": 46,
+      "term": "Argument vs. Explanation",
+      "definition": "An argument provides reasons to support a claim, while an explanation describes why or how something occurs."
+    },
+    {
+      "id": 47,
+      "term": "Fallacy",
+      "definition": "An error in reasoning that weakens an argument."
+    },
+    {
+      "id": 48,
+      "term": "Reasoning",
+      "definition": "The process of making claims, backing them up with reasons, and drawing inferences from evidence."
+    },
+    {
+      "id": 49,
+      "term": "Logic",
+      "definition": "The discipline that distinguishes good reasoning from bad by studying rules and techniques for evaluating arguments."
+    },
+    {
+      "id": 50,
+      "term": "Proposition",
+      "definition": "A declarative statement that can be true or false."
+    },
+    {
+      "id": 51,
+      "term": "Non-Proposition",
+      "definition": "Sentences that do not assert anything, such as questions, commands, and exclamations."
+    },
+    {
+      "id": 52,
+      "term": "Argument",
+      "definition": "A set of propositions where premises support a conclusion."
+    },
+    {
+      "id": 53,
+      "term": "Premise Indicator Words",
+      "definition": "Words that signal a premise, such as 'because', 'since', and 'in view of the fact that'."
+    },
+    {
+      "id": 54,
+      "term": "Conclusion Indicator Words",
+      "definition": "Words that signal a conclusion, such as 'therefore', 'thus', and 'hence'."
+    },
+    {
+      "id": 55,
+      "term": "Enthymeme",
+      "definition": "An argument with an unstated premise that is assumed but not explicitly stated."
+    },
+    {
+      "id": 56,
+      "term": "Independent Premises",
+      "definition": "Premises that each provide separate support for a conclusion."
+    },
+    {
+      "id": 57,
+      "term": "Critical Thinking",
+      "definition": "The systematic evaluation or formulation of beliefs using rational standards."
+    },
+    {
+      "id": 58,
+      "term": "Evaluative & Formulative Thinking",
+      "definition": "Critical thinking assesses existing beliefs and helps formulate new ones."
+    },
+    {
+      "id": 59,
+      "term": "Rational Beliefs",
+      "definition": "Beliefs that are judged by how well they are supported by reasons."
+    },
+    {
+      "id": 60,
+      "term": "Statement (Claim)",
+      "definition": "An assertion that something is or is not the case."
+    },
+    {
+      "id": 61,
+      "term": "Non-Statements",
+      "definition": "Expressions that do not assert truth, such as greetings, commands, or questions."
+    },
+    {
+      "id": 62,
+      "term": "Standard Form of an Argument",
+      "definition": "A method of structuring an argument by listing premises followed by the conclusion."
+    },
+    {
+      "id": 63,
+      "term": "Persuasion vs. Argument",
+      "definition": "Persuasion relies on emotional appeals, while an argument provides reasons for believing a claim."
+    },
+    {
+      "id": 64,
+      "term": "Argument vs. Explanation",
+      "definition": "An argument provides reasons for believing something, while an explanation describes why or how something happens."
     }
   ]
 }

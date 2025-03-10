@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Personal Identity",
+        "definition": "The philosophical study of what makes a person the same over time despite changes."
+      },
+      {
+        "id": 2,
+        "term": "Numerical Identity",
+        "definition": "The condition of being one and the same entity through time."
+      },
+      {
+        "id": 3,
+        "term": "Ontology of the Self",
+        "definition": "The metaphysical study of existence, focusing on what it means to be a person."
+      },
+      {
+        "id": 4,
+        "term": "Traditional Views on Personal Identity",
+        "definition": "Include body-based, soul-based, and psychological continuity theories."
+      },
+      {
+        "id": 5,
+        "term": "Body Criterion",
+        "definition": "The idea that personal identity is tied to having the same physical body over time."
+      },
+      {
+        "id": 6,
+        "term": "Soul Criterion",
+        "definition": "The belief that a person remains the same if they possess the same soul over time."
+      },
+      {
+        "id": 7,
+        "term": "Memory (Psychological Continuity) Criterion",
+        "definition": "Defines personal identity in terms of continuity of memory and consciousness."
+      },
+      {
+        "id": 8,
+        "term": "Brian Smart’s Ship Identity Thought Experiment",
+        "definition": "A case exploring whether identity is retained when an object’s parts are replaced."
+      },
+      {
+        "id": 9,
+        "term": "John Perry’s Brain Swap Thought Experiment",
+        "definition": "A scenario questioning if personal identity follows the brain or the body."
+      },
+      {
+        "id": 10,
+        "term": "Derek Parfit’s View on Identity",
+        "definition": "Argues that identity is not as important as psychological continuity and survival."
+      },
+      {
+        "id": 11,
+        "term": "Parfit’s Split-Brain Experiment",
+        "definition": "Explores the problem of identity when one brain is divided into two separate bodies."
+      },
+      {
+        "id": 12,
+        "term": "Hinduism and the Self",
+        "definition": "Views identity as the Atman, an unchanging true self distinct from the material world."
+      },
+      {
+        "id": 13,
+        "term": "Atman",
+        "definition": "The eternal, unchanging self in Hindu philosophy."
+      },
+      {
+        "id": 14,
+        "term": "Brahman",
+        "definition": "The ultimate reality in Hinduism, with which Atman is identical."
+      },
+      {
+        "id": 15,
+        "term": "Karma",
+        "definition": "The law of cosmic justice that affects one's future existence based on actions."
+      },
+      {
+        "id": 16,
+        "term": "Moksha",
+        "definition": "Liberation from the cycle of birth and rebirth in Hinduism."
+      },
+      {
+        "id": 17,
+        "term": "Maya",
+        "definition": "The illusionary nature of the material world, according to Hindu philosophy."
+      },
+      {
+        "id": 18,
+        "term": "The Buddhist Concept of Self",
+        "definition": "Rejects the idea of a permanent self, arguing that identity is an illusion."
+      },
+      {
+        "id": 19,
+        "term": "Anatta (No-Self)",
+        "definition": "The Buddhist doctrine that denies a permanent, unchanging self."
+      },
+      {
+        "id": 20,
+        "term": "The Five Aggregates (Skandhas)",
+        "definition": "The five components—form, sensation, perception, mental formations, and consciousness—that make up a person."
+      },
+      {
+        "id": 21,
+        "term": "Samsara",
+        "definition": "The cycle of birth, death, and rebirth in Hinduism and Buddhism."
+      },
+      {
+        "id": 22,
+        "term": "The Three Marks of Existence",
+        "definition": "Buddhist teachings that state all things are impermanent (anicca), lead to suffering (dukkha), and lack a permanent self (anatta)."
+      },
+      {
+        "id": 23,
+        "term": "Nirvana",
+        "definition": "The Buddhist state of liberation, free from suffering and self-illusion."
+      },
+      {
+        "id": 24,
+        "term": "David Hume on Personal Identity",
+        "definition": "Argued that there is no consistent self, only a bundle of perceptions."
+      },
+      {
+        "id": 25,
+        "term": "Heraclitus and Change",
+        "definition": "Famously stated that one cannot step into the same river twice, highlighting the idea that identity is constantly changing."
+      },
+      {
+        "id": 26,
+        "term": "Derek Parfit’s Teletransporter Thought Experiment",
+        "definition": "A scenario that questions whether a person transported atom by atom remains the same person."
+      },
+      {
+        "id": 27,
+        "term": "Roderick Chisholm’s 'Haecceity'",
+        "definition": "The idea of an inner self-nature that makes a person unique."
+      },
+      {
+        "id": 28,
+        "term": "The Doctrine of Dependent Arising",
+        "definition": "The Buddhist concept that all things arise in dependence on other factors, reinforcing the rejection of a permanent self."
+      },
+      {
+        "id": 29,
+        "term": "Comparing Hinduism & Buddhism on the Self",
+        "definition": "Hinduism believes in an eternal Atman, while Buddhism rejects the idea of a permanent self."
+      },
+      {
+        "id": 30,
+        "term": "Reincarnation vs. Rebirth",
+        "definition": "Hinduism views identity as continuous through reincarnation, while Buddhism sees rebirth as a process without a permanent self."
+      },
+      {
+        "id": 31,
+        "term": "The Ultimate Reality in Hinduism",
+        "definition": "The belief that everything is ultimately Brahman and individuality is an illusion."
+      },
+      {
+        "id": 32,
+        "term": "Personal Identity and Legal Disputes",
+        "definition": "Cases like the Ship of Theseus illustrate how identity can be debated in practical contexts."
+      },
+      {
+        "id": 33,
+        "term": "The Psychological Criterion of Identity",
+        "definition": "Defines personal identity in terms of continuity of psychological traits and memories."
+      },
+      {
+        "id": 34,
+        "term": "Parfit’s View on the Unimportance of Identity",
+        "definition": "Suggests that what matters is psychological continuity rather than a fixed identity."
+      },
+      {
+        "id": 35,
+        "term": "The Problem of Personal Identity in Modern Science",
+        "definition": "Advances in neuroscience challenge traditional views on the self by showing how identity is shaped by brain function."
+      }
+    ]
+  }

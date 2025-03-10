@@ -1,0 +1,179 @@
+{
+    "flashcards": [
+      {
+        "id": 1,
+        "term": "Ethics",
+        "definition": "The branch of philosophy concerned with moral principles, values, and the justification of right and wrong actions."
+      },
+      {
+        "id": 2,
+        "term": "Normative Ethics",
+        "definition": "The study of ethical action and the principles that determine moral obligations."
+      },
+      {
+        "id": 3,
+        "term": "Consequentialism",
+        "definition": "A moral theory that determines right and wrong based on the outcomes or consequences of actions."
+      },
+      {
+        "id": 4,
+        "term": "Utilitarianism",
+        "definition": "A consequentialist theory that holds that the best action maximizes overall happiness or pleasure."
+      },
+      {
+        "id": 5,
+        "term": "Greatest Happiness Principle",
+        "definition": "The principle in utilitarianism that an action is right if it produces the greatest happiness for the greatest number."
+      },
+      {
+        "id": 6,
+        "term": "Jeremy Bentham",
+        "definition": "A philosopher who developed classical utilitarianism and introduced the Hedonic Calculus to measure pleasure and pain."
+      },
+      {
+        "id": 7,
+        "term": "John Stuart Mill",
+        "definition": "A philosopher who refined utilitarianism by distinguishing between higher and lower pleasures."
+      },
+      {
+        "id": 8,
+        "term": "Deontology",
+        "definition": "An ethical theory that judges morality based on rules, duties, and obligations rather than consequences."
+      },
+      {
+        "id": 9,
+        "term": "Kantian Ethics",
+        "definition": "An ethical system developed by Immanuel Kant that emphasizes duty and moral law, guided by the Categorical Imperative."
+      },
+      {
+        "id": 10,
+        "term": "Categorical Imperative",
+        "definition": "Kant's principle that one should act only according to maxims that could be universally applied."
+      },
+      {
+        "id": 11,
+        "term": "Divine Command Theory",
+        "definition": "The view that moral rightness is determined by God's commands."
+      },
+      {
+        "id": 12,
+        "term": "Egoism",
+        "definition": "The ethical theory that moral agents should act in their own self-interest."
+      },
+      {
+        "id": 13,
+        "term": "Social Contract Theory",
+        "definition": "The idea that moral and political obligations arise from an agreement among individuals to form a society."
+      },
+      {
+        "id": 14,
+        "term": "Virtue Ethics",
+        "definition": "An agent-based ethical theory that emphasizes moral character and the cultivation of virtues."
+      },
+      {
+        "id": 15,
+        "term": "Aristotle's Virtue Ethics",
+        "definition": "A moral framework that focuses on developing good character traits through habitual practice."
+      },
+      {
+        "id": 16,
+        "term": "Eudaimonia",
+        "definition": "The Aristotelian concept of human flourishing or living a virtuous and fulfilling life."
+      },
+      {
+        "id": 17,
+        "term": "Doctrine of the Mean",
+        "definition": "Aristotle’s principle that virtue lies between two extremes of excess and deficiency."
+      },
+      {
+        "id": 18,
+        "term": "Feminist Ethics",
+        "definition": "A relational and care-based approach to ethics that critiques traditional moral theories for their male-centered perspectives."
+      },
+      {
+        "id": 19,
+        "term": "Care Ethics",
+        "definition": "An ethical theory emphasizing empathy, relationships, and caring responsibilities over abstract moral rules."
+      },
+      {
+        "id": 20,
+        "term": "Hedonic Calculus",
+        "definition": "Bentham's system for measuring the pleasure and pain produced by actions."
+      },
+      {
+        "id": 21,
+        "term": "Trolley Problem",
+        "definition": "A thought experiment in ethics that challenges utilitarian decision-making by considering whether to sacrifice one life to save many."
+      },
+      {
+        "id": 22,
+        "term": "Moral Relativism",
+        "definition": "The belief that moral truths are not absolute but vary based on cultural, social, or individual perspectives."
+      },
+      {
+        "id": 23,
+        "term": "Moral Subjectivism",
+        "definition": "The view that moral values are based on individual preferences rather than objective standards."
+      },
+      {
+        "id": 24,
+        "term": "Moral Objectivism",
+        "definition": "The belief that there are universal moral principles that apply to all people at all times."
+      },
+      {
+        "id": 25,
+        "term": "Moral Pragmatism",
+        "definition": "The view that moral principles should be evaluated based on their practical consequences."
+      },
+      {
+        "id": 26,
+        "term": "Agent-Based Ethics",
+        "definition": "A perspective in ethics that evaluates morality based on the character of the moral agent rather than the action itself."
+      },
+      {
+        "id": 27,
+        "term": "Confucian Virtue Ethics",
+        "definition": "An ethical framework emphasizing personal virtue, familial roles, and social harmony."
+      },
+      {
+        "id": 28,
+        "term": "Filial Piety",
+        "definition": "The Confucian virtue of respect and duty toward one's parents and ancestors."
+      },
+      {
+        "id": 29,
+        "term": "Feminist Critique of Traditional Ethics",
+        "definition": "Argues that traditional ethical theories prioritize abstract reasoning over relationships and emotions."
+      },
+      {
+        "id": 30,
+        "term": "Hegemonic Masculinity in Ethics",
+        "definition": "The dominance of traditionally masculine values such as rationality and independence in ethical theories."
+      },
+      {
+        "id": 31,
+        "term": "Moral Exemplars",
+        "definition": "Individuals who embody moral virtues and serve as role models in ethical decision-making."
+      },
+      {
+        "id": 32,
+        "term": "Moral Epistemology",
+        "definition": "The study of how we come to know moral truths and justify ethical beliefs."
+      },
+      {
+        "id": 33,
+        "term": "Practical Wisdom (Phronesis)",
+        "definition": "In Aristotle’s ethics, the intellectual virtue that enables one to make sound moral decisions."
+      },
+      {
+        "id": 34,
+        "term": "Rationality vs. Emotion in Ethics",
+        "definition": "A debate over whether moral decision-making should be based primarily on reason or emotions like empathy and care."
+      },
+      {
+        "id": 35,
+        "term": "Comparing Action-Based and Agent-Based Ethics",
+        "definition": "Action-based ethics focus on the morality of actions, while agent-based ethics prioritize the moral character of individuals."
+      }
+    ]
+  }
