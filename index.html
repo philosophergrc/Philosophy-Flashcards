@@ -90,11 +90,40 @@
         border-radius: 10px;
         cursor: pointer;
         transform-style: preserve-3d;
-        transition: transform 0.6s;
+        transition: transform 0.6s, box-shadow 0.3s, scale 0.3s;
+        position: relative;
+      }
+
+      .flashcard:hover {
+        box-shadow: 0 10px 20px rgba(225, 255, 54, 0.3);
+        scale: 1.02;
+      }
+      
+      .flashcard::after {
+        content: "Click to flip";
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: rgba(42, 42, 42, 0.7);
+        color: #e1ff36;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .flashcard:hover::after {
+        opacity: 1;
       }
 
       .flashcard.flipped {
         transform: rotateY(180deg);
+      }
+
+      /* Hide the "Click to flip" text when the card is flipped */
+      .flashcard.flipped::after {
+        opacity: 0;
       }
 
       .card-front,
@@ -187,6 +216,12 @@
         .flashcard {
           width: 300px;
           height: 230px;
+        }
+        
+        .flashcard::after {
+          font-size: 12px;
+          bottom: 5px;
+          right: 5px;
         }
         
         .card-front,
@@ -284,9 +319,13 @@
       // Flash card array to hold
       let flashcards = [];
       let currentIndex = 0;
+      let cardOrder = []; // Array to track the order of cards
 
       // Track if the card is flipped
       let isFlipped = false;
+      
+      // Add a sorted index array to track the order of card IDs
+      let sortedCardIndices = [];
       
       //Fetch module directly from the github page
       //Need change when migrate over to the client Google Drive link
@@ -337,6 +376,13 @@
           currentIndex = 0;
           isFlipped = false; // Reset flip when new flashcard
           document.querySelector(".flashcard").classList.remove("flipped");
+          
+          // Initialize card order to sequential order
+          cardOrder = Array.from({length: flashcards.length}, (_, i) => i);
+          
+          // Create a sorted index array based on card IDs
+          updateSortedIndices();
+          
           displayCard();
           document.getElementById("total-questions").innerText =
             "Total Questions: " + flashcards.length;
@@ -345,6 +391,16 @@
           document.getElementById("card-front").innerHTML =
             "<p>Error loading flashcards. Please ensure the Google Sheet is published to the web and shared publicly.</p>";
         }
+      }
+      
+      // Update the sorted indices array whenever card order changes
+      function updateSortedIndices() {
+        // Create a sorted version of the indices based on card IDs
+        sortedCardIndices = cardOrder.slice().sort((a, b) => {
+          const idA = flashcards[a].id !== undefined ? flashcards[a].id : a + 1;
+          const idB = flashcards[b].id !== undefined ? flashcards[b].id : b + 1;
+          return idA - idB;
+        });
       }
 
       // Adjust loadModule function so that clicking a module loads the corresponding module JSON file
@@ -369,25 +425,19 @@
         loadFlashcards(module);
       }
 
-      /*CARD FUNCTIONALITY*/
-
       function displayCard() {
         if (flashcards.length > 0) {
-          const { term, definition, id } = flashcards[currentIndex];
+          // Use cardOrder to get the actual card index to display
+          const cardIndexToShow = cardOrder[currentIndex];
+          const { term, definition, id } = flashcards[cardIndexToShow];
+          
           document.getElementById("card-front").innerHTML = `<p>${term}</p>`;
-          document.getElementById(
-            "card-back"
-          ).innerHTML = `<p>${definition}</p>`;
-          // If flashcard has an 'id' property, use it; otherwise fallback to index-based numbering
-          const questionNumber = id !== undefined ? id : currentIndex + 1;
+          document.getElementById("card-back").innerHTML = `<p>${definition}</p>`;
+          
+          // Use the card's original ID if available, otherwise use position
+          const displayNumber = id !== undefined ? id : (cardIndexToShow + 1);
           document.getElementById("current-question").innerText =
-            "Question: " + questionNumber + " of " + flashcards.length;
-
-          //let number_question = document.getElementById("current-question");
-
-          //number_question.innerHTML = `Question: ${} of ${id}`
-
-          //add number of question and total question
+            "Question: " + displayNumber + " of " + flashcards.length;
         }
       }
 
@@ -402,27 +452,76 @@
         displayCard();
       }
 
+      // Helper function to find current card in sorted order
+      function findCurrentSortedIndex() {
+        const currentCardId = flashcards[cardOrder[currentIndex]].id;
+        for (let i = 0; i < sortedCardIndices.length; i++) {
+          if (flashcards[sortedCardIndices[i]].id === currentCardId) {
+            return i;
+          }
+        }
+        return 0;
+      }
+
       function nextCard() {
-        currentIndex = (currentIndex + 1) % flashcards.length;
+        // Find the current card in sorted order
+        const currentSortedIndex = findCurrentSortedIndex();
+        
+        // Get the next card in ID order
+        const nextSortedIndex = (currentSortedIndex + 1) % sortedCardIndices.length;
+        const nextCardIndex = sortedCardIndices[nextSortedIndex];
+        
+        // Find this card's position in the shuffled order
+        for (let i = 0; i < cardOrder.length; i++) {
+          if (cardOrder[i] === nextCardIndex) {
+            currentIndex = i;
+            break;
+          }
+        }
+        
         resetCard();
       }
 
       function prevCard() {
-        currentIndex = (currentIndex - 1 + flashcards.length) % flashcards.length;
+        // Find the current card in sorted order
+        const currentSortedIndex = findCurrentSortedIndex();
+        
+        // Get the previous card in ID order
+        const prevSortedIndex = (currentSortedIndex - 1 + sortedCardIndices.length) % sortedCardIndices.length;
+        const prevCardIndex = sortedCardIndices[prevSortedIndex];
+        
+        // Find this card's position in the shuffled order
+        for (let i = 0; i < cardOrder.length; i++) {
+          if (cardOrder[i] === prevCardIndex) {
+            currentIndex = i;
+            break;
+          }
+        }
+        
         resetCard();
       }
 
       function shuffleCards() {
-        flashcards.sort(() => Math.random() - 0.5);
-        // Set currentIndex to a random index after shuffling
-        currentIndex = Math.floor(Math.random() * flashcards.length);
+        // Only attempt to shuffle if we have cards
+        if (flashcards.length <= 1) return;
+        
+        // Perform the Fisher-Yates shuffle on the cardOrder array
+        for (let i = cardOrder.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [cardOrder[i], cardOrder[j]] = [cardOrder[j], cardOrder[i]];
+        }
+        
+        // Update sorted indices after shuffling
+        updateSortedIndices();
+        
+        // Reset to the first card in the new shuffled order
+        currentIndex = 0;
+        
+        // Update the display with the new order
         resetCard();
       }
 
       loadFlashcards(1); // load module 1 by default
-
-      // Create a function that pull direcly from google drive and CSV to create a flash card
-      //Change color scheme to neon yellow and green to meet the client requirement
     </script>
   </body>
 </html>
