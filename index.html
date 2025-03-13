@@ -263,7 +263,7 @@
     <!-- SIDEBAR-->
     <div class="container">
       <div class="sidebar">
-        <ul>
+        <ul id="title" class="list">
           <!--Onclick will trigger loadModule function()
               parameter (number id of the module)-->
           <li onclick="loadModule(this, 1)">Module 1</li>
@@ -327,6 +327,70 @@
       // Add a sorted index array to track the order of card IDs
       let sortedCardIndices = [];
       
+      // New function to load all module titles at once
+      async function loadAllModuleTitles() {
+        const sheetIds = [
+          "1RDPbmN1wLsTN-7PTXR93gsX_Z5oeGLFTjR0olbuGogw",
+          "1rXHfJ5pzjghq4STBmORrvqQUyZNVs5vTDvR9dRYijKw",
+          "1gKKQLDrytkBOOU-PjbPsNHX3zltNm07LogLkuTH44qU",
+          "1j5reBk4NFbtTwAZ9AwUydvb1QJwJ9UOJEKrGPbIIfqI",
+          "1KsFNETbl_KFFc4r3z_dkyS0NmKzMhKfZaV8NJE91sLU",
+          "1bym-uioQms05020h9wBgXfWsKtR-hTyK5qs-ZiU5IQY",
+          "1kwQP7pKWVMd-7alPct-uicy6Ma3NqUhXg6NxswuIslc",
+          "1kAK6sslvB-AMsp8iO7trMyn3EoAj83a0NrlGT94_YRc",
+          "12ZIibWt5QKlV8xDjW_Q3VXtNoiosB3xDXqMXbCjZtcU",
+          "1Ov401df56nkJc5xDiGQjD20DVheXXpJhxIY4f6DhBkw",
+          "19_aDQvNxIGslKBP-qcODpdUOJUt-J-EMXMDDeq5ADGw",
+          "1_WH8OOdciSaKVgNPu7wa818PVCTp_y0dAlZ9X0y-PSc"
+        ];
+
+        // Show loading in UI
+        const listItems = document.querySelectorAll('.sidebar li');
+        listItems.forEach(item => item.textContent = "Loading...");
+        
+        // Create an array of promises for parallel execution
+        const fetchPromises = sheetIds.map((sheetId, index) => {
+          return new Promise(async (resolve) => {
+            try {
+              const moduleNumber = index + 1;
+              const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:json`;
+              
+              const response = await fetch(url);
+              if (!response.ok) {
+                resolve({ index, title: `Module ${moduleNumber}` });
+                return;
+              }
+              
+              const text = await response.text();
+              const jsonText = text
+                .replace("/*O_o*/", "")
+                .replace(/google\.visualization\.Query\.setResponse\(|\);$/g, "");
+              const data = JSON.parse(jsonText);
+              
+              // Extract the title
+              const title = data.table.cols[3].label || `Module ${moduleNumber}`;
+              resolve({ index, title });
+            } catch (error) {
+              console.error(`Error loading module ${index + 1}:`, error);
+              resolve({ index, title: `Module ${index + 1}` });
+            }
+          });
+        });
+        
+        // Wait for all promises to resolve (all fetch operations complete)
+        const results = await Promise.all(fetchPromises);
+        
+        // Update UI with module titles
+        results.forEach(({ index, title }) => {
+          // Update sidebar
+          listItems[index].textContent = title;
+          
+          // Update dropdown
+          const selectOptions = document.getElementById('module-select').options;
+          selectOptions[index].textContent = title;
+        });
+      }
+      
       //Fetch module directly from the github page
       //Need change when migrate over to the client Google Drive link
       async function loadFlashcards(module) {
@@ -370,9 +434,10 @@
           flashcards = data.table.rows.map((row) => ({
             id: row.c[0]?.v || undefined,
             term: row.c[1]?.v || "No Term",
-            definition: row.c[2]?.v || "No Definition"
+            definition: row.c[2]?.v || "No Definition",
           }));
-
+         
+      
           currentIndex = 0;
           isFlipped = false; // Reset flip when new flashcard
           document.querySelector(".flashcard").classList.remove("flipped");
@@ -384,8 +449,15 @@
           updateSortedIndices();
           
           displayCard();
-          document.getElementById("total-questions").innerText =
+        
+          // Load total question from the flashcard (Inner HTML)
+           document.getElementById("total-questions").innerText =
             "Total Questions: " + flashcards.length;
+          
+          // Removed the module title update code from here since we now load all titles at startup
+                    
+          console.log(flashcards);
+          
         } catch (error) {
           console.error("Error fetching flashcards:", error);
           document.getElementById("card-front").innerHTML =
@@ -429,7 +501,7 @@
         if (flashcards.length > 0) {
           // Use cardOrder to get the actual card index to display
           const cardIndexToShow = cardOrder[currentIndex];
-          const { term, definition, id } = flashcards[cardIndexToShow];
+          const { term, definition, id,title } = flashcards[cardIndexToShow];
           
           document.getElementById("card-front").innerHTML = `<p>${term}</p>`;
           document.getElementById("card-back").innerHTML = `<p>${definition}</p>`;
@@ -439,6 +511,17 @@
           document.getElementById("current-question").innerText =
             "Question: " + displayNumber + " of " + flashcards.length;
         }
+      }
+
+
+      displayTitle = () => {
+        const { term, definition, id,title } = flashcards;
+        const listItems = document.querySelectorAll('.list li');
+        console.log(`${title}`)
+
+            for (let i = 0; i < listItems.length; i++) {
+            listItems[i].innerHTML = `${title}`
+            }
       }
 
       function flipCard() {
@@ -521,7 +604,14 @@
         resetCard();
       }
 
-      loadFlashcards(1); // load module 1 by default
+      // Initialize everything when the page loads
+      window.onload = async function() {
+        // First load all module titles
+        await loadAllModuleTitles();
+        
+        // Then load the first module's flashcards
+        loadFlashcards(1); // load module 1 by default
+      };
     </script>
   </body>
 </html>
