@@ -1,0 +1,324 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "term": "Philosophy",
+      "definition": "The study of general and fundamental problems in the form of questions."
+    },
+    {
+      "id": 2,
+      "term": "Philo",
+      "definition": "Greek word meaning 'to love'."
+    },
+    {
+      "id": 3,
+      "term": "Sophia",
+      "definition": "Greek word meaning 'knowledge' or 'wisdom'."
+    },
+    {
+      "id": 4,
+      "term": "Philosophy (Etymology)",
+      "definition": "Derived from the Greek φιλοσοφία (philosophia), meaning 'the love of wisdom'."
+    },
+    {
+      "id": 5,
+      "term": "Major Areas of Philosophy",
+      "definition": "Metaphysics, Epistemology, Logic, and Axiology (Ethics & Aesthetics)."
+    },
+    {
+      "id": 6,
+      "term": "Metaphysics",
+      "definition": "The study of reality, including the fundamental nature of the universe and existence."
+    },
+    {
+      "id": 7,
+      "term": "Epistemology",
+      "definition": "The study of knowledge and justified belief."
+    },
+    {
+      "id": 8,
+      "term": "Logic",
+      "definition": "The study of rules for correct reasoning and argument structure."
+    },
+    {
+      "id": 9,
+      "term": "Axiology",
+      "definition": "The study of moral and aesthetic values, often divided into ethics and aesthetics."
+    },
+    {
+      "id": 10,
+      "term": "Philosophical Question",
+      "definition": "Thinking about or questioning the truth of a belief."
+    },
+    {
+      "id": 11,
+      "term": "Philosophical Beliefs",
+      "definition": "Fundamental beliefs that underlie many ordinary beliefs."
+    },
+    {
+      "id": 12,
+      "term": "Argument",
+      "definition": "A set of premises leading to a conclusion, aiming to justify a belief."
+    },
+    {
+      "id": 13,
+      "term": "Premise",
+      "definition": "A statement that provides support for a conclusion in an argument."
+    },
+    {
+      "id": 14,
+      "term": "Conclusion",
+      "definition": "The statement being supported by premises in an argument."
+    },
+    {
+      "id": 15,
+      "term": "Deductive Argument",
+      "definition": "An argument intended to guarantee the truth of its conclusion."
+    },
+    {
+      "id": 16,
+      "term": "Inductive Argument",
+      "definition": "An argument that aims to make its conclusion more likely or probable."
+    },
+    {
+      "id": 17,
+      "term": "Valid Argument",
+      "definition": "An argument where, if the premises are true, the conclusion must also be true."
+    },
+    {
+      "id": 18,
+      "term": "Sound Argument",
+      "definition": "A deductively valid argument with all true premises."
+    },
+    {
+      "id": 19,
+      "term": "Cogent Argument",
+      "definition": "An inductively strong argument with all true premises."
+    },
+    {
+      "id": 20,
+      "term": "Russell on Philosophy",
+      "definition": "Philosophy’s value lies in its uncertainty and its ability to challenge assumptions."
+    },
+    {
+      "id": 21,
+      "term": "Russell on Practicality",
+      "definition": "Criticized the 'practical' person for recognizing material but not intellectual needs."
+    },
+    {
+      "id": 22,
+      "term": "Value of Philosophy",
+      "definition": "It expands our understanding, frees us from biases, and fosters critical thinking."
+    },
+    {
+      "id": 23,
+      "term": "Philosophy & Freedom",
+      "definition": "True philosophic contemplation makes a person a 'citizen of the universe'."
+    },
+    {
+      "id": 24,
+      "term": "Certainty as a Prison",
+      "definition": "Rigid beliefs prevent intellectual growth and limit freedom."
+    },
+    {
+      "id": 25,
+      "term": "Socratic Method",
+      "definition": "A form of cooperative dialogue to stimulate critical thinking and illuminate ideas."
+    },
+    {
+      "id": 26,
+      "term": "Socratic Irony",
+      "definition": "Pretending ignorance to expose contradictions in one’s interlocutor’s views."
+    },
+    {
+      "id": 27,
+      "term": "Theory of Forms",
+      "definition": "Plato’s claim that non-material abstract forms represent the highest kind of reality."
+    },
+    {
+      "id": 28,
+      "term": "Allegory of the Cave",
+      "definition": "A metaphor for the transformative journey from ignorance to enlightenment."
+    },
+    {
+      "id": 29,
+      "term": "Dialectic",
+      "definition": "A method of reasoning involving dialogue between two or more people holding different points of view."
+    },
+    {
+      "id": 30,
+      "term": "Virtue Ethics",
+      "definition": "An ethical framework that emphasizes virtues of mind and character."
+    },
+    {
+      "id": 31,
+      "term": "Aristotelian Logic",
+      "definition": "A system of logic developed by Aristotle based on syllogisms."
+    },
+    {
+      "id": 32,
+      "term": "Platonic Love",
+      "definition": "A deep, non-sexual bond that transcends physical attraction."
+    },
+    {
+      "id": 33,
+      "term": "Phronesis",
+      "definition": "Practical wisdom guiding ethical decision-making."
+    },
+    {
+      "id": 34,
+      "term": "Eudaimonia",
+      "definition": "A central concept in Aristotelian ethics meaning human flourishing or well-being."
+    },
+    {
+      "id": 35,
+      "term": "Philosophical Thinking",
+      "definition": "Thinking about the truth of a philosophical belief."
+    },
+    {
+      "id": 36,
+      "term": "Bias",
+      "definition": "An obstacle to thinking well by preferring someone or something for irrelevant reasons."
+    },
+    {
+      "id": 37,
+      "term": "Value of Philosophy (Russell)",
+      "definition": "Philosophy’s value lies in its uncertainty, challenging assumptions and freeing the mind from prejudice."
+    },
+    {
+      "id": 38,
+      "term": "Practicality vs. Philosophy",
+      "definition": "Russell criticized 'practical' people for valuing material needs while neglecting intellectual development."
+    },
+    {
+      "id": 39,
+      "term": "Philosophy as Inquiry",
+      "definition": "The process of critically examining beliefs, questioning assumptions, and constructing logical arguments."
+    },
+    {
+      "id": 40,
+      "term": "Philosophical Contemplation",
+      "definition": "A state of mind that seeks knowledge beyond personal biases, expanding one's view of the world."
+    },
+    {
+      "id": 41,
+      "term": "Citizenship of the Universe",
+      "definition": "Russell’s idea that philosophy enables individuals to transcend narrow worldviews and embrace universal understanding."
+    },
+    {
+      "id": 42,
+      "term": "Philosophy and Logic",
+      "definition": "Philosophy is built upon logic, which codifies rules for correct reasoning and argumentation."
+    },
+    {
+      "id": 43,
+      "term": "Metaphysics (Expanded)",
+      "definition": "A branch of philosophy that explores the nature of reality, including existence, time, and the universe."
+    },
+    {
+      "id": 44,
+      "term": "Axiology (Expanded)",
+      "definition": "The study of values, including moral values (ethics) and aesthetic values (beauty and art)."
+    },
+    {
+      "id": 45,
+      "term": "Critical Examination",
+      "definition": "The philosophical practice of analyzing and questioning beliefs to ensure they are justified and reasonable."
+    },
+    {
+      "id": 46,
+      "term": "Argument vs. Explanation",
+      "definition": "An argument provides reasons to support a claim, while an explanation describes why or how something occurs."
+    },
+    {
+      "id": 47,
+      "term": "Fallacy",
+      "definition": "An error in reasoning that weakens an argument."
+    },
+    {
+      "id": 48,
+      "term": "Reasoning",
+      "definition": "The process of making claims, backing them up with reasons, and drawing inferences from evidence."
+    },
+    {
+      "id": 49,
+      "term": "Logic",
+      "definition": "The discipline that distinguishes good reasoning from bad by studying rules and techniques for evaluating arguments."
+    },
+    {
+      "id": 50,
+      "term": "Proposition",
+      "definition": "A declarative statement that can be true or false."
+    },
+    {
+      "id": 51,
+      "term": "Non-Proposition",
+      "definition": "Sentences that do not assert anything, such as questions, commands, and exclamations."
+    },
+    {
+      "id": 52,
+      "term": "Argument",
+      "definition": "A set of propositions where premises support a conclusion."
+    },
+    {
+      "id": 53,
+      "term": "Premise Indicator Words",
+      "definition": "Words that signal a premise, such as 'because', 'since', and 'in view of the fact that'."
+    },
+    {
+      "id": 54,
+      "term": "Conclusion Indicator Words",
+      "definition": "Words that signal a conclusion, such as 'therefore', 'thus', and 'hence'."
+    },
+    {
+      "id": 55,
+      "term": "Enthymeme",
+      "definition": "An argument with an unstated premise that is assumed but not explicitly stated."
+    },
+    {
+      "id": 56,
+      "term": "Independent Premises",
+      "definition": "Premises that each provide separate support for a conclusion."
+    },
+    {
+      "id": 57,
+      "term": "Critical Thinking",
+      "definition": "The systematic evaluation or formulation of beliefs using rational standards."
+    },
+    {
+      "id": 58,
+      "term": "Evaluative & Formulative Thinking",
+      "definition": "Critical thinking assesses existing beliefs and helps formulate new ones."
+    },
+    {
+      "id": 59,
+      "term": "Rational Beliefs",
+      "definition": "Beliefs that are judged by how well they are supported by reasons."
+    },
+    {
+      "id": 60,
+      "term": "Statement (Claim)",
+      "definition": "An assertion that something is or is not the case."
+    },
+    {
+      "id": 61,
+      "term": "Non-Statements",
+      "definition": "Expressions that do not assert truth, such as greetings, commands, or questions."
+    },
+    {
+      "id": 62,
+      "term": "Standard Form of an Argument",
+      "definition": "A method of structuring an argument by listing premises followed by the conclusion."
+    },
+    {
+      "id": 63,
+      "term": "Persuasion vs. Argument",
+      "definition": "Persuasion relies on emotional appeals, while an argument provides reasons for believing a claim."
+    },
+    {
+      "id": 64,
+      "term": "Argument vs. Explanation",
+      "definition": "An argument provides reasons for believing something, while an explanation describes why or how something happens."
+    }
+  ]
+}
